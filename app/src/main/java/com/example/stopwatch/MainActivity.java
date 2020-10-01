@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
                 if (running){
                     seconds++;
                 }
-                handler.postDelayed(this,1000);
+                handler.postDelayed(this,10);
             }
         });
     }
